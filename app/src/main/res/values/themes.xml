@@ -1,0 +1,51 @@
+<resources>
+    <style name="Base.Theme.StoryAppA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorOutline">@color/grey</item>
+    </style>
+
+    <style name="Theme.StoryAppA" parent="Base.Theme.StoryAppA" />
+
+    <style name="TextRegular">
+        <item name="fontFamily">@font/inter_tight_regular</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="fontFamily">@font/inter_tight_bold</item>
+    </style>
+
+    <style name="TextExtraBold">
+        <item name="fontFamily">@font/inter_tight_extra_bold</item>
+    </style>
+
+    <style name="AppBarTitle" parent="TextBold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="HeadlineLanding" parent="TextExtraBold">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="ButtonTitle" parent="TextBold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomTextField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_custom_input</item>
+        <item name="android:fontFamily">@font/inter_tight_regular</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+    </style>
+
+    <style name="Theme.StoryAppA.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">16dp</item>
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.StoryAppA.AppWidgetContainer" parent="Theme.StoryAppA.AppWidgetContainerParent">
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>
